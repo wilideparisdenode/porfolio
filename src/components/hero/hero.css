@@ -1,0 +1,100 @@
+
+  /* Home section */
+  .home {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+ align-items: center;
+  }
+  
+  .home-content {
+    flex: 1;
+  }
+  
+  .home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .home-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #7f8c8d;
+  }
+  
+  .home-content p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
+  
+  .home-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .home-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-placeholder {
+    width: 300px;
+    height: 300px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-size: 1.2rem;
+  }
+  
+  /* Button styles */
+  .btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+    display: inline-block;
+  }
+  
+  .btn.primary {
+    background-color: #3498db;
+    color: white;
+    border: none;
+  }
+  
+  .btn.primary:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn.secondary {
+    background-color: transparent;
+    color: #3498db;
+    border: 2px solid #3498db;
+  }
+  
+  .btn.secondary:hover {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  /* Section common styles */
+  section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+  }
+  
