@@ -12,7 +12,7 @@ export default function Navbar() {
      <nav className="navbar">
        <div className="nav-container">
          <Link to="/" className="nav-logo">
-           Portfolio
+           WilTech
          </Link>
          <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
            <Link to="/" className="nav-link" onClick={() => setIsMenuOpen(false)}>
