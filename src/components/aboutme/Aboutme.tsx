@@ -1,5 +1,5 @@
 import type { Skill } from '../../utils/types';
-import "./aboutme.css"
+// import "./aboutme.css"
 export default function Aboutme() {
     const skills: Skill[] = [
       { name: 'HTML/CSS', level: 90, category: 'Frontend' },

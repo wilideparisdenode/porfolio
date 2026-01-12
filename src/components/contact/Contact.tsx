@@ -1,4 +1,4 @@
-import "./contact.css"
+// import "./contact.css"
 import { useState } from "react";
 import { motion} from "framer-motion";
 export const Contact: React.FC = () => {
