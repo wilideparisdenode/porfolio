@@ -40,7 +40,7 @@ export const Contact: React.FC = () => {
               <strong>Email:</strong> wilsonndoping@gmail.com
             </div>
             <div className="contact-item">
-              <strong>Phone:</strong> +237 672693053
+              <strong>Phone:</strong> +237 672554153
             </div>
             <div className="contact-item">
               <strong>Location:</strong> Yaounde, Cameroon
